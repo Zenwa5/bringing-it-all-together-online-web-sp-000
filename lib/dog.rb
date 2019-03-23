@@ -23,5 +23,6 @@ class Dog
     sql = <<-SQL
       DROP TABLE dogs
     SQL
-    
+  end
+
 end
