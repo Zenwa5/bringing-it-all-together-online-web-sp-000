@@ -15,6 +15,6 @@ class Dog
       name TEXT,
       breed TEXT
     )
-    
+
   end
 end
