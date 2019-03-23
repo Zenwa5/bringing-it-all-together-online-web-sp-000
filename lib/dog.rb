@@ -7,4 +7,9 @@ class Dog
     @breed = breed
     @id = id
   end
+
+  def create_table
+    sql = <<-SQL 
+    CREATE TABLE IF NOT EXISTS dogs
+  end
 end
